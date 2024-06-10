@@ -1,0 +1,15 @@
+# String – plain text.  
+# E.g. : 
+name = "Jered" 
+
+# Integer – whole number.   
+# E.g. : 
+favorite_number = 6 
+
+# Decimal number – number with decimal places.  
+# E.g. : 
+student_gpa = 3.8 
+
+# Boolean – Value set as either True or False.  
+# E.g. : 
+is_male = True 
