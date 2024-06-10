@@ -1,0 +1,88 @@
+# Example1: 
+''' 
+Output: H 
+        e 
+        l 
+        l 
+        o 
+'''  
+
+for letter in "Hello":   # For each letter in Hello.  
+    print(letter)   # This will display each individual letter in Hello.  
+
+ 
+# Example2:  
+''' 
+Output: Jim 
+        Karen 
+        Kevin 
+''' 
+
+friends = ["Jim", "Karen", "Kevin"] 
+
+for friend in friends:   # friend is the name of an individual element in the array friends.  
+    print(friend)   # This will display each individual friend in the array friends.  
+
+ 
+# Example3:  
+''' 
+Output: 0 
+        1 
+        2 
+        5 
+        6 
+        7 
+''' 
+
+for index1 in range(3):   # range(3) is the set of numbers from 0 to 3 not including 3.  
+    print(index1)   # This will display all whole numbers from 0 to 2.   
+for index2 in range(5, 8):   # range(5, 8) is the set of numbers from 5 to 8 not including 8.  
+    print(index2)   # This will display all whole numbers from 5 to 7.  
+
+
+# Example4:  
+''' 
+Output: Jim 
+        Karen 
+        Kevin 
+''' 
+
+friends = ["Jim", "Karen", "Kevin"] 
+
+for index in range(len(friends)):   # len(friends) is the number of elements in friends – 3.  
+    print(friends[index])   # This will display the friend at each index position from 0 to 2.  
+
+ 
+# Example5:  
+''' 
+Output: First iteration 
+        Not first 
+        Not first 
+        Not first 
+        Not first 
+''' 
+
+for index in range(5): 
+    if index == 0:   # The following code will only be executed on the first iteration of the for loop.  
+        print("First iteration") 
+    else:   # The following code will be executed on every iteration but the first of the for loop.  
+        print("Not first") 
+
+ 
+# Example6:  
+# Output: 8 
+
+print(2**3)   # X**Y allows to raise X to the power of Y.  
+
+ 
+# Example7:  
+# The following code shows how to raise one number to the power of another using a for loop.  
+# Output: 9 
+
+def raise_to_power(base_num, pow_num):  
+    result = 1 
+    for index in range(pow_num): 
+        result = result * base_num 
+    return result 
+
+print(raise_to_power(3, 2))   #This will display the answer to 3**2.
