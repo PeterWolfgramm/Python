@@ -1,0 +1,71 @@
+'''
+For the next examples, assume the following is the contents of employees.txt: 
+
+    Jim - Salesman 
+    Dwight - Salesman 
+    Pam - Receptionist 
+    Michael - Manager 
+    Oscar - Accountant 
+'''
+
+# Example 1:  
+#Output: True 
+
+employee_file = open("employees.txt", "r")   # This allows to open employees.txt.  
+
+print(employee_file.readable())   # This will display whether the text is readable.  
+
+employee_file.close()   # This allows to close employees.txt.  
+
+ 
+# Example 2:  
+''' 
+Output: Jim - Salesman 
+        Dwight - Salesman 
+        Pam - Receptionist 
+        Michael - Manager 
+        Oscar - Accountant 
+''' 
+employee_file = open("employees.txt", "r") 
+
+print(employee_file.read())   # This will display the contents of employees.txt. 
+
+employee_file.close() 
+
+ 
+# Example 3:  
+'''
+Output: Jim - Salesman 
+        Dwight - Salesman 
+'''
+
+employee_file = open("employees.txt", "r") 
+
+print(employee_file.readline())   # This will display the first line of the file.  
+
+print(employee_file.readline())   # This will display the next line.  
+
+employee_file.close() 
+
+ 
+# Example 4:  
+''' 
+Output: ['Jim – Salesman\n', 'Dwight - Salesman\n', 'Pam - Receptionist\n',  
+        'Michael - Manager\n', 'Oscar - Accountant\n'] 
+''' 
+
+employee_file = open("employees.txt", "r") 
+
+print(employee_file.readlines())   # This will display the contents of the file as a list.  
+
+employee_file.close() 
+
+ 
+# Example 5:  
+#Output: Dwight - Salesman 
+
+employee_file = open("employees.txt", "r") 
+
+print(employee_file.readlines()[1])   # This will display the contents of index position 1 of the list.  
+
+employee_file.close() 
