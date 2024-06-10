@@ -1,0 +1,6 @@
+# Output: 27 
+
+def cube(num):  
+	return num*num*num   # This will return the result of cubing num.  
+
+print(cube(3)) 
