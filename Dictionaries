@@ -1,0 +1,24 @@
+''' 
+Output: November 
+        December 
+        Not a valid key  
+''' 
+
+monthConversions = {   # Name of the dictionary.  
+    "Jan": "January",  
+    "Feb": "February",  
+    "Mar": "March",  
+    "Apr": "April",  
+    "May": "May",  
+    "Jun": "June",  
+    "Jul": "July",  
+    "Aug": "August",  
+    "Sep": "September",  
+    "Oct": "October",  
+    "Nov": "November",  
+    "Dec": "December" 
+} 
+
+print(monthConversions["Nov"])   # This will display November.  
+print(monthConversions.get("Dec"))   # This will display December.  
+print(monthConversions.get("Bru", "Not a valid key"))   # This will display Not a valid key.
