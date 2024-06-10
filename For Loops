@@ -1,4 +1,4 @@
-# Example1: 
+# Example 1: 
 ''' 
 Output: H 
         e 
@@ -11,7 +11,7 @@ for letter in "Hello":   # For each letter in Hello.
     print(letter)   # This will display each individual letter in Hello.  
 
  
-# Example2:  
+# Example 2:  
 ''' 
 Output: Jim 
         Karen 
@@ -24,7 +24,7 @@ for friend in friends:   # friend is the name of an individual element in the ar
     print(friend)   # This will display each individual friend in the array friends.  
 
  
-# Example3:  
+# Example 3:  
 ''' 
 Output: 0 
         1 
@@ -40,7 +40,7 @@ for index2 in range(5, 8):   # range(5, 8) is the set of numbers from 5 to 8 not
     print(index2)   # This will display all whole numbers from 5 to 7.  
 
 
-# Example4:  
+# Example 4:  
 ''' 
 Output: Jim 
         Karen 
@@ -53,7 +53,7 @@ for index in range(len(friends)):   # len(friends) is the number of elements in 
     print(friends[index])   # This will display the friend at each index position from 0 to 2.  
 
  
-# Example5:  
+# Example 5:  
 ''' 
 Output: First iteration 
         Not first 
@@ -69,13 +69,13 @@ for index in range(5):
         print("Not first") 
 
  
-# Example6:  
+# Example 6:  
 # Output: 8 
 
 print(2**3)   # X**Y allows to raise X to the power of Y.  
 
  
-# Example7:  
+# Example 7:  
 # The following code shows how to raise one number to the power of another using a for loop.  
 # Output: 9 
 
