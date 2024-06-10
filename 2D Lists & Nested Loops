@@ -1,0 +1,72 @@
+# Example 1:  
+# Output: 1 
+
+number_grid = [   # The following are lists of numbers within the list number_grid.  
+    [1, 2, 3],  
+    [4, 5, 6],  
+    [7, 8, 9],  
+    [0] 
+    ] 
+
+print(number_grid[0][0])   # number_grid[0][0] allows to display the element within list 0 at positon 0.  
+
+ 
+# Example 2:  
+''' 
+Output: [1, 2, 3] 
+        [4, 5, 6] 
+        [7, 8, 9]  
+        [0] 
+''' 
+
+number_grid = [    
+    [1, 2, 3],  
+    [4, 5, 6],  
+    [7, 8, 9],  
+    [0] 
+    ] 
+
+for row in number_grid:   # For each row in number_grid. 
+    print(row)   # This will display each individual row.  
+
+ 
+# Example 3:  
+''' 
+Output: 1 
+        2 
+        3 
+        4 
+        5 
+        6 
+        7 
+        8 
+        9 
+        0 
+''' 
+
+number_grid = [    
+    [1, 2, 3],  
+    [4, 5, 6],  
+    [7, 8, 9],  
+    [0] 
+    ] 
+
+for row in number_grid:   # For each row in number_grid.  
+    for column in row:   # For each column of each row.  
+        print(column)   # This will display the value in each column of every row.  
+
+ 
+# Example 4:  
+# The following code functions as a translator that converts all vowels to g.  
+# Output: Translation of string where each vowel is converted to the letter g.  
+
+def translate(phrase):   # This function will determine letter by letter whether it should be converted to the letter g.  
+    translation = ""   # The translation of a letter is set to nothing.  
+    for letter in phrase:  
+        if letter in "AEIOUaeiou":   # If the letter is found within AEIOUaeiou (if the letter is a vowel) 
+            translation = translation + "g"   # The translation of the letter is nothing + the letter g.  
+        else:  
+            translation = translation + letter   # Otherwise the translation is nothing + same letter.  
+        return translation 
+
+print(translate(input("Enter a phrase: "))) 
