@@ -1,0 +1,39 @@
+# Example1:
+''' 
+Output: 1 
+        2 
+        3 
+        4 
+        5   
+''' 
+
+i = 1 
+
+while 1 <= 5:  
+    print(i) 
+    i += 1   # i += 1 increments i by 1.  
+             # i += 1 is the same as i = i + 1. 
+
+ 
+# Example2:  
+# The following code is a guessing game.  
+# The user has 3 tries to guess the secret word, otherwise they lose.  
+# Output: Either You win! or Out of guesses, you lose!.  
+
+secret_word = "giraffe"   # The user tries to guess giraffe.  
+guess = ""   # guess is declared as a variable that stores the user's guess.  
+guess_count = 0 
+guess_limit = 3 
+out_of_guesses = False 
+
+while guess != secret_word and not(out_of_guesses): 
+    if guess_count < guess_limit:   
+        guess = input("Enter guess: ") 
+        guess_count += 1 
+    else:  
+        out_of_guesses = True 
+
+if out_of_guesses:  
+    print("Out of guesses, you lose!") 
+else:  
+    print("You win!") 
