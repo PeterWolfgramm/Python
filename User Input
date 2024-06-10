@@ -1,4 +1,4 @@
-# Example1:  
+# Example 1:  
 # Output: Hello X! You are Y 
 
 # X is stored as name and Y is stored as age.  
@@ -9,7 +9,7 @@ age = input("Enter your age: ")   # The user input will be stored as age.
 print("Hello " + name + "! You are " + age) 
 
 
-# Example2:  
+# Example 2:  
 # The following code functions as a calculator that adds two numbers.  
 
 # Output: The sum X + Y 
@@ -23,7 +23,7 @@ result = float(num1) + float(num2)   # float() converts string to decimal number
 print(result) 
 
 
-# Example3:  
+# Example 3:  
 
 ''' 
 Output: Roses are X 
