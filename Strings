@@ -1,0 +1,26 @@
+''' 
+Output: Giraffe 
+        Academy 
+        Giraffe"Academy 
+''' 
+
+print("Giraffe\nAcademy")   # \n displays Academy on a new line.  
+print("Giraffe\"Academy")   # \ allows to display ".  
+
+Example2:  
+''' 
+Output: False 
+        GIRAFFE ACADEMY 
+        15  
+        G 
+        0 
+        Elephant Academy 
+''' 
+
+phrase = "Giraffe Academy" 
+print(phrase.isupper())   # Checks whether a string is all upper-case with True or False statement.  
+print(phrase.upper())   # Displays string as all upper-case.  
+print(len(phrase))   # Displays total amount of characters in string.  
+print(phrase[0])   # Checks which character is at index position 0.  
+print(phrase.index("G"))   # Checks which index position character G is at.  
+print(phrase.replace("Giraffe", "Elephant"))   # Replaces Giraffe with Elephant in the phrase.  
