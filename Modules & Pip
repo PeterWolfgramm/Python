@@ -1,5 +1,5 @@
 '''
-For the next example, assume the following are the contents of file useful_tools 
+For the next example, assume the following are the contents of file useful_tools: 
 
     feet_in_mile = 5280 
     meters_in_km = 1000 
