@@ -1,0 +1,45 @@
+# Example1:  
+# Output: 12 
+
+def max_num(num1, num2, num3) 
+    if num1 >= num2 and num1 >= num3:   # >= checks whether one variable is greater than or equal to another.  
+        return num1 
+    elif num2 >= num1 and num2 >= num3:  
+        return num2 
+    else:  
+        return num3 
+
+print(max_num(4, 8, 12)) 
+
+ 
+# Example2:  
+# Output: Not equal 
+
+def num_check(num1, num2):  
+    if num1 == num2:   # == checks whether two variables are the same.  
+        return "Equal" 
+    elif num1 != num2:   # != checks whether two variables are unequal.  
+        return "Not equal" 
+
+print(num_check(2, 3)) 
+
+ 
+# Example3:  
+# The following code functions as a basic calculator.  
+# Output: X op Y 
+# where X is the first number, op is the operator and Y is the second number.  
+
+num1 = float(input("Enter first number: ")) 
+op = input("Enter operator: ") 
+num2 = float(input("Enter second number: ")) 
+
+if op == "+":  
+    print(num1 + num2)  
+elif op == "-":  
+    print(num1 - num2)  
+elif op == "*":  
+    print(num1 * num2)  
+elif op == "/":  
+    print(num1 / num2)  
+else:  
+    print("Invalid operator") 
