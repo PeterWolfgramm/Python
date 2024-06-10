@@ -9,34 +9,17 @@ For the first example, assume the following are contents of Student.py:
             self.is_on_probation = is_on_probation 
 '''
  
-
- 
-
-Example1:  
-
- 
-
-#Output: Jim 
-
- 
+# Example1:  
+# Output: Jim 
 
 from Student import Student 
 
- 
-
 student1 = Student("Jim", "Business", 3.1, False) 
-
 student2 = Student("Pam", "Art", 2.5, True) 
 
- 
+print(student1.name)   # Type the name of an object followed by . and the name of the parameter to display the unique value of a given object.  
 
-print(student1.name)   #Type the name of an object followed by . and the name of the parameter 
 
-         #to display the unique value of a given object.  
-
- 
-
- 
 '''
 For the second example, assume the following are contents of Question.py:  
 
