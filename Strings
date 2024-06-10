@@ -8,6 +8,7 @@ Output: Giraffe
 print("Giraffe\nAcademy")   # \n displays Academy on a new line.  
 print("Giraffe\"Academy")   # \ allows to display ".  
 
+
 # Example2:  
 ''' 
 Output: False 
