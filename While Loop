@@ -1,4 +1,4 @@
-# Example1:
+# Example 1:
 ''' 
 Output: 1 
         2 
@@ -15,7 +15,7 @@ while 1 <= 5:
              # i += 1 is the same as i = i + 1. 
 
  
-# Example2:  
+# Example 2:  
 # The following code is a guessing game.  
 # The user has 3 tries to guess the secret word, otherwise they lose.  
 # Output: Either You win! or Out of guesses, you lose!.  
