@@ -13,6 +13,7 @@ print(2 + 3)   # Addition.
 print(2 * (4 + 5))   # Order of operations using ().  
 print(10 % 3)   # % will perform division and then display the remainder.  
 
+
 # Example2:  
 ''' 
 Output: 6 is my favorite number 
