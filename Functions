@@ -1,0 +1,7 @@
+# Output: Hello Mike, you are 35 
+
+def say_hi(name, age):   # This function accepts two parameters: variables name and age.  
+
+print("Hello " + name + ", you are " + str(age))   # Variable age must be converted to string.  
+
+say_hi("Mike", 35)   # This calls the say_hi functions and gives the two necessary parameters.
