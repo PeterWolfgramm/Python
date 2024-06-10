@@ -1,4 +1,4 @@
-# Example1:  
+# Example 1:  
 # Output: You are male and or tall 
 
 is_male = True 
@@ -12,7 +12,7 @@ else:   # The following code is executed if the conditions above do not apply to
     print("You are neither male nor tall") 
 
  
-# Example2:  
+# Example 2:  
 # Output: You are either not male or not tall or both 
 
 is_male = False 
@@ -24,7 +24,7 @@ else:
     print("You are either not male or not tall or both") 
  
 
-# Example3:  
+# Example 3:  
 # Output: You are a short male 
 
 is_male = True 
