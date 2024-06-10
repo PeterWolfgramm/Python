@@ -1,5 +1,5 @@
 '''
-For the first example, assume the following are contents of Student.py:  
+For the first examples, assume the following are contents of Student.py:  
 
     class Student:  
         def __init__(self, name, major, gpa, is_on_probation):  
