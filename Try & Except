@@ -1,0 +1,37 @@
+# Example1:  
+''' 
+Output: The inputted number or 
+        Invalid input if user inputted a non-number.     
+''' 
+
+try:  
+    number = int(input(Enter a number: ))   # The user is supposed to enter an integer.  
+    print(number) 
+except:   # If the user does not enter an integer, the following code will be executed.  
+    print("Invalid input") 
+
+ 
+# Example 2:  
+# Output: Divided by zero 
+
+try:  
+    value = 10 / 0 
+    number = int(input(Enter a number: )) 
+    print(number) 
+except ZeroDivisionError:   # The following code will be executed if a number is divided by 0.  
+    print("Divided by zero") 
+except ValueError:   # The following code will be executed if the user does not enter an integer.  
+    print(Invalid input") 
+
+ 
+# Example 3:  
+# Output: division by zero 
+
+try:  
+    value = 10 / 0 
+    number = int(input(Enter a number: )) 
+    print(number) 
+except ZeroDivisionError as err:   # This type of error is stored in a variable called err.  
+    print(err)   # An error message will be displayed if a number is divided by 0. 
+except ValueError:  
+    print(Invalid input") 
