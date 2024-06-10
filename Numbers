@@ -1,1 +1,85 @@
+Example1:  
 
+ 
+
+''' 
+
+Output: 2 
+
+    -2.078 
+
+    5 
+
+    18 
+
+    1 
+
+''' 
+
+ 
+
+print(2)   #Numbers can be displayed without "".  
+
+print(-2.078)   #Negative numbers can also be displayed.  
+
+print(2 + 3)   #Addition.  
+
+print(2 * (4 + 5))   #Order of operations using ().  
+
+print(10 % 3)   #% will perform division and then display the remainder.  
+
+ 
+
+Example2:  
+
+ 
+
+''' 
+
+Output: 6 is my favorite number 
+
+    12 
+
+    9 
+
+    6 
+
+    4 
+
+    3 
+
+    3 
+
+    4 
+
+    5 
+
+''' 
+
+ 
+
+from math import *   #This will import additional math functions.  
+
+ 
+
+my_num = 6 
+
+print(str(my_num) " is my favorite number")   #str() can convert numbers to string so they can be 
+
+                                                                                   #displayed with other string.  
+
+print(abs(-12))   #Displays absolute value of a number.  
+
+print(pow(3, 2))   #Raises first number to the power of the second number.  
+
+print(max(4, 6))   #Displays the greater of two numbers.  
+
+print(min(4, 6))   #Displays the lesser of two numbers.  
+
+print(round(3.2))   #Rounds a number.  
+
+print(floor(3.7))   #Rounds a number down.  
+
+print(ceil(3.2))   #Rounds a number up.  
+
+print(sqrt(25))   #Displays the square root of a number.  
