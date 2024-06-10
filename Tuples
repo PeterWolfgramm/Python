@@ -1,4 +1,4 @@
-# Example1:  
+# Example 1:  
 # Output: 4 
 
 coordinates = (4, 5) 
@@ -6,7 +6,7 @@ coordinates = (4, 5)
 print(coordinates[0])   # This will access the value at index position 0.  
  
 
-# Example2:  
+# Example 2:  
 # Output: 3 
 
 coordinates = [(1, 2), (3, 4), (5, 6)]   # Multiple sets of values can be stored within a tuple.  
