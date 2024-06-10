@@ -1,4 +1,4 @@
-# Example1:  
+# Example 1:  
  #Output: Kevin, Karen, Jim, Oscar, Toby, 4, 8, 15, 16, 23, 42 
 
 lucky_numbers = [4, 8, 15, 16, 23, 42] 
@@ -9,7 +9,7 @@ friends.extend(lucky_numbers)   # lucky_numbers will be added to friends.
 print(friends) 
 
 
-# Example2:  
+# Example 2:  
 # Output: Kevin, Karen, Jim, Oscar, Toby, Tom 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
@@ -19,7 +19,7 @@ friends.append("Tom")   # Tom will be added to the end of a list.
 print(friends) 
  
 
-# Example3:  
+# Example 3:  
 # Output: Kevin, Kelly, Karen, Jim, Oscar, Toby 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
@@ -29,7 +29,7 @@ friends.insert(1, Kelly)   # Kelly will be inserted at index position 1.
 print(friends) 
  
 
-# Example4:  
+# Example 4:  
 # Output: Kevin, Karen, Oscar, Toby 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
@@ -39,7 +39,7 @@ friends.remove("Jim")   # The value Jim will be removed.
 print(friends) 
 
  
-# Example5:  
+# Example 5:  
 # Output: [] 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
@@ -49,7 +49,7 @@ friends.clear()   # All the values will be removed.
 print(friends) 
  
 
-# Example6:  
+# Example 6:  
 # Output: Kevin, Kelly, Karen, Jim, Oscar 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
@@ -59,7 +59,7 @@ friends.pop()   # Toby will be removed.
 print(friends) 
  
 
-# Example7: 3 
+# Example 7: 3 
 # Output: Kevin, Karen, Jim, Oscar, Toby 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
@@ -67,7 +67,7 @@ friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 print(friends.index("Oscar"))   # The index position of Oscar will be displayed.  
  
 
-# Example8:  
+# Example 8:  
 # Output: 2 
 
 friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"] 
@@ -75,7 +75,7 @@ friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
 print(friends.count("Jim"))   # The number of times Jim appears will be displayed.  
  
 
-# Example9:  
+# Example 9:  
 ''' 
 Output: Jim, Karen, Kevin, Oscar, Toby 
         4, 8, 15, 16, 23, 42 
@@ -92,7 +92,7 @@ print(friends)
 print(lucky_numbers) 
  
 
-# Example10:  
+# Example 10:  
 # Output: 42, 23, 16, 15, 8, 4 
 
 lucky_numbers = [4, 8, 15, 16, 23, 42] 
@@ -102,7 +102,7 @@ friends.reverse()   # The values of lucky_numbers will be in reverse order.
 print(lucky_numbers) 
  
 
-# Example11:  
+# Example 11:  
 # Output: Kevin, Karen, Jim, Oscar, Toby 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
