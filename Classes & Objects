@@ -9,7 +9,7 @@ For the first example, assume the following are contents of Student.py:
             self.is_on_probation = is_on_probation 
 '''
  
-# Example1:  
+# Example 1:  
 # Output: Jim 
 
 from Student import Student 
