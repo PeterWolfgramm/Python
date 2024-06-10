@@ -1,0 +1,46 @@
+'''
+For the next examples, assume the following is the contents of employees.txt: 
+
+    Jim - Salesman 
+    Dwight - Salesman 
+    Pam - Receptionist 
+    Michael - Manager 
+    Oscar - Accountant 
+'''
+
+# Example 1:  
+''' 
+Output: Below is the modified version of the employees.txt file:  
+        Jim - Salesman 
+        Dwight - Salesman 
+        Pam - Receptionist 
+        Michael - Manager 
+        Oscar - Accountant 
+        Toby - Human Resources 
+''' 
+
+employee_file = open("employees.txt", "a")   # "a" will add more text to the end of the file.  
+
+employee_file.write("\nToby -  Human Resources")   # Toby - Human Resources will be added to the end of employees.txt. 
+
+employee_file.close() 
+
+ 
+# Example 2:  
+# Output: Kelly - Customer Service 
+
+employee_file = open("employees.txt", "w")   # "w" will overwrite the file.  
+
+employee_file.write("Kelly - Customer Service")   # Kelly - Customer Service will replace the previous contents of employees.txt.  
+
+employee_file.close() 
+
+ 
+# Example 3:  
+# Output: A new file called NewFile123 will be created that displays New stuff.   
+
+employee_file = open("NewFile123.txt", "w")   # A new file called NewFile123.txt will be created.  
+
+employee_file.write("New stuff")   # New stuff is what is inside NewFile123.txt. 
+
+employee_file.close() 
