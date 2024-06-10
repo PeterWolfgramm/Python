@@ -1,0 +1,41 @@
+# Example1:  
+# Output: You are male and or tall 
+
+is_male = True 
+is_tall = True 
+
+if is_male or is_tall:   # The variables is_male and is_tall are set to True when checking the condition.  
+                         # or means either is_male or is_tall must be True for the condition to be true. 
+    print("You are male and or tall") 
+else:   # The following code is executed if the conditions above do not apply to the given  
+        # values of is_male and is_tall.  
+    print("You are neither male nor tall") 
+
+ 
+# Example2:  
+# Output: You are either not male or not tall or both 
+
+is_male = False 
+is_tall = True 
+
+if is_male and is_tall:   # and means both is_male and is_tall must be Tue for the condition to be true.  
+    print("You are a tall male") 
+else:  
+    print("You are either not male or not tall or both") 
+ 
+
+# Example3:  
+# Output: You are a short male 
+
+is_male = True 
+is_tall = False 
+
+if is_male and is_tall:  
+    print("You are male and or tall") 
+elif is_male and not(is_tall):   # elif means another condition will be checked after the if condition.  
+                                 # not(is_tall) checks the condition given the value of is_tall is  False.  
+    print("You are a short male") 
+elif not(is_male) and is_tall:   # not(is_male) checks the condition given the value of is_male is False. 
+    print("You are not a male but are tall") 
+else:  
+    print("You are not a male and not tall") 
