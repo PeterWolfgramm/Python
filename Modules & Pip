@@ -1,0 +1,13 @@
+'''
+For the next example, assume the following are the contents of file useful_tools 
+
+    feet_in_mile = 5280 
+    meters_in_km = 1000 
+    
+    def roll_dice(num):  
+        return random.randit(1, num) 
+'''
+
+# Output: A random number between 1 and 10.  
+
+print(useful_tools.roll_dice(10)) 
