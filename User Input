@@ -1,0 +1,42 @@
+# Example1:  
+# Output: Hello X! You are Y 
+
+# X is stored as name and Y is stored as age.  
+
+name = input("Enter your name: ")   # The user input will be stored as name.  
+age = input("Enter your age: ")   # The user input will be stored as age.  
+
+print("Hello " + name + "! You are " + age) 
+
+
+# Example2:  
+# The following code functions as a calculator that adds two numbers.  
+
+# Output: The sum X + Y 
+
+# X is stored as num1 and Y is stored as num2.  
+
+num1 = input("Enter a number: ")   # The user inputs a number, but it is converted to string.  
+num2 = input("Enter another number: ")   # This number will also be converted to string.  
+result = float(num1) + float(num2)   # float() converts string to decimal numbers.   
+
+print(result) 
+
+
+# Example3:  
+
+''' 
+Output: Roses are X 
+    Y are blue 
+    I love Z 
+''' 
+
+# X is stored as color, Y is stored as plural_noun, Y is stored as celebrity.  
+
+color = input("Enter a color: ") 
+plural_noun = ("Enter a plural noun: ") 
+celebrity = ("Enter a celebrity: ") 
+
+print("Roses are " + color) 
+print(plural_noun + " are blue") 
+print("I love " + celebrity) 
