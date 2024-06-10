@@ -1,4 +1,4 @@
-# Example1:  
+# Example 1:  
 # Output: 12 
 
 def max_num(num1, num2, num3) 
@@ -12,7 +12,7 @@ def max_num(num1, num2, num3)
 print(max_num(4, 8, 12)) 
 
  
-# Example2:  
+# Example 2:  
 # Output: Not equal 
 
 def num_check(num1, num2):  
@@ -24,7 +24,7 @@ def num_check(num1, num2):
 print(num_check(2, 3)) 
 
  
-# Example3:  
+# Example 3:  
 # The following code functions as a basic calculator.  
 # Output: X op Y 
 # where X is the first number, op is the operator and Y is the second number.  
