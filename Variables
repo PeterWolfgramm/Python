@@ -9,7 +9,7 @@ Output: There once was a man named George,
 ''' 
 
 character_name = "George" 
-character_age = 70 
+character_age = str(70) 
 
 print("There once was a man named " + character_name + ", ")   # Make sure the variable is surrounded with both "" and ++.  
 print("he was " + character_age + " years old. ") 
