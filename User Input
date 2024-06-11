@@ -34,8 +34,8 @@ Output: Roses are X
 # X is stored as color, Y is stored as plural_noun, Y is stored as celebrity.  
 
 color = input("Enter a color: ") 
-plural_noun = ("Enter a plural noun: ") 
-celebrity = ("Enter a celebrity: ") 
+plural_noun = input("Enter a plural noun: ") 
+celebrity = input("Enter a celebrity: ") 
 
 print("Roses are " + color) 
 print(plural_noun + " are blue") 
