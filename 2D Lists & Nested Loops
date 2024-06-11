@@ -67,6 +67,6 @@ def translate(phrase):   # This function will determine letter by letter whether
             translation = translation + "g"   # The translation of the letter is nothing + the letter g.  
         else:  
             translation = translation + letter   # Otherwise the translation is nothing + same letter.  
-        return translation 
+    return translation 
 
 print(translate(input("Enter a phrase: "))) 
