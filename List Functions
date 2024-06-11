@@ -24,7 +24,7 @@ print(friends)
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
 
-friends.insert(1, Kelly)   # Kelly will be inserted at index position 1.  
+friends.insert(1, "Kelly")   # Kelly will be inserted at index position 1.  
 
 print(friends) 
  
@@ -50,7 +50,7 @@ print(friends)
  
 
 # Example 6:  
-# Output: Kevin, Kelly, Karen, Jim, Oscar 
+# Output: Kevin, Karen, Jim, Oscar 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
 
@@ -59,8 +59,8 @@ friends.pop()   # Toby will be removed.
 print(friends) 
  
 
-# Example 7: 3 
-# Output: Kevin, Karen, Jim, Oscar, Toby 
+# Example 7: 
+# Output: 3 
 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
 
@@ -81,7 +81,7 @@ Output: Jim, Karen, Kevin, Oscar, Toby
         4, 8, 15, 16, 23, 42 
 ''' 
 
-lucky_numbers = [42, 16, 15, 23, 8, 42] 
+lucky_numbers = [42, 16, 15, 23, 8, 4] 
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"] 
 
 friends.sort()   # The values of friends will be sorted in alphabetical order.  
