@@ -1,7 +1,7 @@
 # Example 1:  
 # Output: 12 
 
-def max_num(num1, num2, num3) 
+def max_num(num1, num2, num3): 
     if num1 >= num2 and num1 >= num3:   # >= checks whether one variable is greater than or equal to another.  
         return num1 
     elif num2 >= num1 and num2 >= num3:  
